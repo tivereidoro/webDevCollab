@@ -12,3 +12,49 @@ header {
   padding: 10px 20px;
   border: black 2px solid;
 }
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+}
+p{
+  padding: 10px;
+  width: 75%;
+  margin: auto;
+  font-size: 20px;
+}
+.text{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: gray;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+img{
+  border-radius: 15px;
+}
+@media (max-width:500px){
+  p{
+    font-size: 15px;
+  }
+  .fire{
+    font-size: 6px;
+  }
+  
+}
+.fire{
+  font-weight: 100;
+  font-size: 50px;
+  font-family: 'poppins' sans-serif;
+}
+
