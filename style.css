@@ -12,3 +12,22 @@ header {
   padding: 10px 20px;
   border: black 2px solid;
 }
+
+a {
+  color: grey;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  border: 2px solid black;
+  gap: 20px;
+}
+
+.socialIcons {
+  font-size: 25px;
+}
+
