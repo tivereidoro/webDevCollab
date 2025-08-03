@@ -6,10 +6,59 @@
 }
 
 /* NAVBAR STYLES */
-header {
+.bio {
   background-color: #333;
   color: white;
   padding: 10px 20px;
   border: black 2px solid;
 }
-/
+
+/* contact form styles */
+@media screen and (max-width: 800px) {
+
+}
+.contact{
+  justify-content: space-around;
+  
+}
+.cs{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 37px;
+  font-weight: 20px;
+}
+.cs:hover{
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 40px;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  border: 30px rgb(243, 15, 15);
+  border-radius: 20px red;
+}
+.bn{
+  display: flex;
+flex-direction:column;
+gap: 20px;
+border-radius: 50px black;
+border: 15px gray;
+}
+.Collaboration{
+  justify-content: space-around;
+  align-items: flex-start;
+}
+p{
+  display: flex;
+  flex-direction: column;
+  font-size: 21px;
+  justify-content: space-around;
+  gap: 9rem;
+}
