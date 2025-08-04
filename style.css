@@ -12,6 +12,9 @@ header {
   padding: 10px 20px;
   border: black 2px solid;
 }
+
+
+/* The BAND SECTION */
 section{
   display: flex;
   justify-content: center;
@@ -57,4 +60,22 @@ img{
   font-size: 50px;
   font-family: 'poppins' sans-serif;
 }
+
+/* FOOTER */
+a {
+  color: grey;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  border: 2px solid black;
+  gap: 20px;
+}
+
+.socialIcons {
+  font-size: 25px;
 
